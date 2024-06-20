@@ -1,0 +1,118 @@
+<p>
+    Here we are going to learn about the various types of hovers,
+    transitions and shadows effects that we can put as modifications
+    in our buttons.<br>
+
+    We can do this with the help of Pseudo class like "hover" and<br> 
+    and "active" and within these we can use css properties like<br> 
+    "opacity".<br><br>
+
+    For implementing a smooth transition while hovering over the <br>
+    buttons we have a CSS property that is known as "Transition" <br>
+    which takes in two values: <br>
+    the property and the time period.<br>
+    <br>
+    we use "margin" property and "padding"<br>
+    property to add proper spaces and orient<br>
+    the elements properly in the web page.<br>
+    Padding can be used instead of height <br>
+    width and can be added on all the directions<br>
+    <br>
+
+    By default the web browser aligns all the <br>
+    elements based on the text position. Manually<br>
+    also it can be done using the vertical-align<br>
+    or using "align" in any other direction.<br>  
+    <br>
+
+    CSS specificity is an important property which tells<br>
+    what the browser prioritises while displaying the web<br>
+    page. It says that a class name selector has a more <br>
+    priority than the element name priority.<br><br>
+
+
+
+</p>
+
+
+<style>
+
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        color:white;
+        border:none;
+        height:36px;
+        width:105px;
+        border-radius:3px;
+        cursor:pointer;
+        margin-right: 9px;
+        transition : opacity 0.15s;
+    }
+
+    .subscribe-button:hover{
+        opacity:0.6;
+    }
+
+    .subscribe-button:active{
+        opacity:0.3;
+    }
+
+
+    .join-button  {
+        background-color:white;
+        border-color:rgb(10, 91, 149);
+        color:rgb(10, 91, 149);
+        font-weight:bold;
+        border-style:solid;
+        border-width:2px;
+        border-radius:3px;
+        cursor: pointer;
+        height: 35px;
+        width: 60px;
+        margin-right: 9px;
+        transition:background-color 0.15s, color 0.15s;
+    }
+
+    .join-button:hover{
+        background-color:rgb(10, 91, 149);
+        color:white;
+    }
+
+    .join-button:active{
+        opacity:0.6;
+    }
+    
+    .tweet-button 
+    {
+        color:white;
+        background-color:rgb(5, 119, 225);
+        border-radius:30px;
+        height:36px;
+        width: 70px;
+        border-style:solid;
+        cursor:pointer;
+        border-color:rgb(5, 119, 225);
+        font-weight:bold;
+        font-size:13px;
+        border-width:1px;
+        box-shadow: rgba(0, 0, 0, 0.15);
+        transition: box-shadow 0.15;
+    }
+
+    .tweet-button:hover{
+        box-shadow:10px 10px 10px rgba(0,0,0,0.15);
+    }
+
+</style>
+
+
+<button class="subscribe-button">
+    SUBSCRIBE </button>
+
+<button class="join-button"> 
+    JOIN 
+</button>
+
+<button class="tweet-button">
+    TWEET 
+</button> 

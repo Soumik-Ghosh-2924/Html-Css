@@ -1,0 +1,97 @@
+<p>
+    <b>Cascading Style Sheets</b><br><br>
+    We use style tag.<br>
+    The tags we are including in the style CSS
+    are the elements which we are targetting<br> in
+    the web page,<br> we have the CSS Selector,
+    CSS Property and CSS Value.<br><br>
+
+    "background color" is for the button's<br>
+    background and the "color" property is<br>
+    for the text color.<br><br>
+
+    Similarly border and the height are the <br>
+    property to modify the button in our own<br>
+    way.px stand for the pixels.<br><br>
+    
+    rgb stands for red,green and blue value<br>
+    for the color and for each the max value<br>
+    is 255.Thus rgb{255,255,255} stands for the<br>
+    white color.<br><br>
+
+    border-radius property is for the rounded<br>
+    corners and cursor is for the shape which<br>
+    comes when the cursor is moved over to the<br>
+    button.<br><br> 
+
+    for different button when we want to have<br>
+    different styles we use the class atrribute<br>
+    to label the button respectively and to implement<br>
+    the different styles we use the syntax<br>
+    ".class-name" as the Target CSS Selector.<br><br>
+
+    The margin-right property is used for adding space<br> 
+    to the right of and element and the value of so <br>
+    is in pixels. <br>
+
+
+
+</p>
+
+
+<style>
+
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        color:white;
+        border:none;
+        height:36px;
+        width:105px;
+        border-radius:3px;
+        cursor:pointer;
+        margin-right: 9px;
+    }
+
+
+    .join-button  {
+        background-color:white;
+        border-color:rgb(18, 200, 237);
+        color:rgb(18, 200, 237);
+        border-style:solid;
+        border-width:1.5px;
+        border-radius:3px;
+        cursor: pointer;
+        height: 35px;
+        width: 60px;
+        margin-right: 9px;
+    }
+    
+    .tweet-button 
+    {
+        color:white;
+        background-color:rgb(5, 119, 225);
+        border-radius:30px;
+        height:36px;
+        width: 70px;
+        border-style:solid;
+        cursor:pointer;
+        border-color:rgb(5, 119, 225);
+        font-weight:bold;
+        font-size:13px;
+        border-width:1px;
+
+    }
+
+</style>
+
+
+<button class="subscribe-button">
+    SUBSCRIBE </button>
+
+<button class="join-button"> 
+    JOIN 
+</button>
+
+<button class="tweet-button">
+    TWEET 
+</button> 
