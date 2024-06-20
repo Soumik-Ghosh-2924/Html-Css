@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<title> Form 1 </title>
+</head>
+<body bgcolor="Cyan">
+<marquee behavior="alternate" ><b><u><font size=8>BIODATA</font></u></b></marquee>
+<form action="/action_page.php" method="get" >
+<button type="button" onclick="alert('The form is to collect personal information of a student.')"><i>Click here to understand</i> <u><b>what the form is about!</b></u></button><br><br>
+<fieldset style=" background-color:#dfdd8e">
+<img src="C:\Users\KIIT\Desktop\My Images\InShot_20230115_120648245.jpg" height="500px" width="400px" align="right">
+<legend> <i><b><h2>Student's Informa</h2></b></i></legend>
+<b>First Name :</b> <br>
+<input type="text" name="first name"><br><br>
+<b>Last Name :</b> <br>
+<input type="text" name="last name"> <br><br>
+Roll number: <br>
+<input type="text" name="roll number" required ><br><br>
+<label>Choose your year : </label>
+<select name="year">  
+<option value="1st year">1st year</option>
+<option value="2nd year">2nd year</option>
+<option value="3rd year">3rd year</option>
+<option value="4th year">4th year<option>
+</select><br><br>
+Enter your E-mail Address : <br>
+<input type="email" name="user_email"><br><br>
+<b>Drop your Facebook link :</b> <br>
+<input type="url" name="usr_fb_id"><br><br>
+Gender :<br>
+<input type="radio" name="Gender" value="Male">Male<br>
+<input type="radio" name="Gender" value="Female">Female<br>
+<input type="radio" name="Gender" value="Others">Others<br><br>
+D.O.B :<br>
+<label>DD :</label> 
+<select name="date">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<label>MM :</label>
+<select name="month" required>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+<label>YYYY :</label>
+<select name="year" required>
+<option value="2000">2000</option>
+<option value="2001">2001</option>
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+</select><br><br>
+Week in which you were born : <br>
+<input type="week"><br><br>
+Time of birth :<br>
+<input type="time" name="birth_time"><br><br>
+Age:
+<input type="text" name="age"><br><br>
+Contact Details :<br>
+<input type="tel" name="std-tele" max="10"><br><br>
+Choose your favourite colour:<br>
+<input type="color" name="favourite color"><br>
+</fieldset> <br><br>
+<fieldset style=" background-color:#90EE90" >
+<legend><b><i><h2>Student's Parent Details </h2></i></b></legend>
+<img src="C:\Users\KIIT\Desktop\My Images\IMG-20221228-WA0011.jpg" align="right" height="500px" width="400px">
+<img src="C:\Users\KIIT\Desktop\My Images\IMG-20221228-WA0030.jpg" align="right" height="500px" width="400px">
+<br>Father's Name :
+<input type="text" name="Father's name"><br><br>
+Mother's Name:
+<input type="text" name="Mother's name"><br><br>
+Father's Occupation :
+<input type="text" name="Father's occupation"><br><br>
+Father's Date Of Birth :
+<input type="Date" min="1960-12-31" max="2030-12-31"><br><br>
+Mother's Occupation :
+<input type="text" name="Mother's Occupation"><br><br>
+Mother's Date Of Birth :
+<input type="date" min="1980-01-31" max="2030-12-31"><br><br>
+Landline Number :
+<input type="tel" name="user_tel"><br><br>
+Residential Address : 
+<input type="textarea" name="Resi-add" rows="20" cols="40">
+</fieldset>
+<br>
+<fieldset style="background-color:#eedd82">
+<legend><h2><b><i>Other Information : </i></b></h2></legend>
+Relationship Status : <br>
+<input type="radio" name="Relationship status" value="single">Single<br>
+<input type="radio" name="Relationship status" value="committed">Committed<br>
+<input type="radio"name="Relationship status" value="married">Married<br><br>
+Favourite Cars : <br>
+<label >Choose a car:</label>
+<select name="favourite car" > 
+<option value="Volvo">Volvo</option>
+<option value="Bmw">Bmw</option>
+<option value="Mercedes">Mercedes</option>
+<option value="Bentley">Bentley</option>
+<option value="Jaguar">Jaguar</option>
+<option value="Rolls Royce">Rolls Royce</option>
+<option value="Lamborghini">Lamborghini</option>
+<option value="Ferrari">Ferrari</option>
+</select>
+<br><br>
+Favourite Outdoor Sport :<br><br>
+<select name="Favourite Outdoor Sport">
+<option>Cricket</option>
+<option>Football</option>
+<option>Hockey</option>
+<option>Lawn-Tennis</option>
+<option>Kabaddi</option>
+</select><br><br>
+Favourite Indoor Sport :<br><br>
+<select name="Favourite Indoor Sport">
+<option value="Chess">Chess</option>
+<option value="Carrom">Carrom</option>
+<option value="Ludo">Ludo</option>
+<option value="Uno">Uno</option>
+</select><br><br>
+Vehicles in possession :<br>
+<input type="checkbox" name="vehicle" value="cycle">I possess a cycle<br>
+<input type="checkbox" name="vehicle" value="car">I possess a car<br>
+<input type="checkbox" name="vehicle" value="bike">I possess a bike<br>
+<input type="checkbox" name="vehicle" value="No vehicle">I possess no vehicle<br><br>
+Number of vehicles you posses :<br>
+<input type="number" name="no of vehicles" ><br><br>
+If you do possess any, then in which month did you purchase your first vehicle :<br>
+<input type="month" name="month of first vehicle purchase" ><br><br>
+What colour is your vehicle ?<br>
+<input type="color" name="vehicle-color"><br>
+</fieldset><br><br>
+<input type="submit"> <br>
+<input type="reset">
+</form>
+</body>
+</html>
